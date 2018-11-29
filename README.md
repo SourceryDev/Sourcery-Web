@@ -1,8 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Sourcery</h1>
+<h3 align="center">React web client for Sourcery</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-0.1.0-green.png" alt="Assignment 6 Version 0.1.0"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8098163/49174384-cf207200-f30b-11e8-8f1b-200680d228bd.png" alt="MSL A6 image"/>
+</p>
+
+<p align="center">&copy; 2018 Sourcery</p>
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+Installs the dependencies
 
 ### `npm start`
 
