@@ -27,12 +27,13 @@ handleChange(e) {
     });
 }
 
-handleSubmit(e) {
+async handleSubmit(e) {
     e.preventDefault();
 
     //console.log('The form was submitted with the following data:');
     //console.log(this.state);
-    axios.post('https://api-sourcery.herokuapp.com/addLead', this.state);
+    let result = await axios.post('https://api-sourcery.herokuapp.com/addLead', this.state);
+    console.log('RESULT: ', result);
 
 
 }
