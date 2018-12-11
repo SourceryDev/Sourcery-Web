@@ -61,11 +61,11 @@ async handleSubmit(e) {
 
 renderSuccessAlert() {
   return <div style={{background: "black"}}><Alert className="custom-alert" color="success" isOpen={this.state.visible} toggle={this.onDismiss}>Your contact information was submitted!</Alert></div>
-   } 
+   }
 
    renderFailureAlert() {
     return <div style={{background: "black"}}><Alert className="custom-alert" color="danger" isOpen={this.state.visible} toggle={this.onDismiss}>There was an error submitting your contact information - please try again.</Alert></div>
-     } 
+     }
 
   render() {
     return (
@@ -112,10 +112,10 @@ renderSuccessAlert() {
 								        </linearGradient>
 								    </defs>
 								    <g fill="none" fillRule="evenodd">
-								        <path d="M4 0h12v16H0V4a4 4 0 0 1 4-4z" fill="url(#logo-a)"/>
-								        <path d="M16 16h16v12a4 4 0 0 1-4 4H16V16z" fill="url(#logo-b)"/>
-								        <path d="M11.5 20.5H.5v1h10v10h1v-11z" stroke="url(#logo-c)" transform="matrix(-1 0 0 1 12 0)"/>
-								        <path d="M31.5.5h-11v1h10v10h1V.5z" stroke="url(#logo-c)" transform="matrix(1 0 0 -1 0 12)"/>
+								         <path d="M4 0h12v16H0V4a4 4 0 0 1 4-4z" fill="url(#logo-a)"/>
+								          <path d="M16 16h16v12a4 4 0 0 1-4 4H16V16z" fill="url(#logo-b)"/>
+								          <path d="M11.5 20.5H.5v1h10v10h1v-11z" stroke="url(#logo-c)" transform="matrix(-1 0 0 1 12 0)"/>
+								          <path d="M31.5.5h-11v1h10v10h1V.5z" stroke="url(#logo-c)" transform="matrix(1 0 0 -1 0 12)"/>
 								    </g>
 								</svg>
                             </a>
@@ -130,13 +130,13 @@ renderSuccessAlert() {
                 <div className="container">
                     <div className="hero-inner">
 						<div className="hero-copy">
-	                        <h1 className="hero-title mt-0 is-revealing">Open source stuff blah blah blah</h1>
-	                        <p className="hero-paragraph is-revealing">Some descriptive text here about how sourcery works and stuff</p>
+	                        <h1 className="hero-title mt-0 is-revealing">Open source, Epically.</h1>
+	                        <p className="hero-paragraph is-revealing">OpenSourcery is ...</p>
 
                             <form onSubmit={this.handleSubmit} autoComplete="off" id="lead-form">
                             <div className="hero-form field field-grouped is-revealing">
                                 <div className="control control-expanded">
-                                    <input className="input" type="email" name="email" placeholder="Email address" value={this.state.email} onChange={this.handleChange}/>
+                                    <input className="input" type="email" name="email" placeholder="Email me when it's ready!" value={this.state.email} onChange={this.handleChange}/>
                                 </div>
                                 <div className="control">
                                     <button className="button button-primary button-block" type="submit">Join!</button>
@@ -145,15 +145,15 @@ renderSuccessAlert() {
 
                             </form>
 
-                          
+
 						</div>
 						<div className="hero-illustration">
 							<div className="hero-bg">
 								<svg width="720" height="635" xmlns="http://www.w3.org/2000/svg">
 								    <defs>
 								        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.738%" id="a">
-								            <stop stopColor="#151616" offset="0%"/>
-								            <stop stopColor="#222424" offset="100%"/>
+								            <stop stopColor="#000000" offset="0%"/>
+								            <stop stopColor="#5A1A99" offset="100%"/>
 								        </linearGradient>
 								    </defs>
 								    <path d="M0 0h720v504.382L279.437 630.304c-53.102 15.177-108.454-15.567-123.631-68.669-.072-.25-.142-.5-.211-.75L0 0z" fill="url(#a)" fillRule="evenodd"/>
@@ -351,7 +351,7 @@ renderSuccessAlert() {
 							</div>
 							<div className="hero-dots hero-dots-1 is-moving-object is-translating" data-translating-factor="160">
 								<svg width="279" height="97" xmlns="http://www.w3.org/2000/svg">
-								    <g fill="#43F1FF" fillRule="evenodd">
+								    <g fill="#2DB229" fillRule="evenodd">
 								        <path d="M71.686 0l-2.899 1.334L68 4.157l.926 2.688L71.686 8l2.6-1.31L76 4.156l-1.295-2.94z"/>
 								        <path fillOpacity=".64" d="M38.843 2l-1.45.667L37 4.079l.463 1.344 1.38.577 1.3-.655L41 4.079l-.648-1.47z"/>
 								        <path fillOpacity=".24" d="M65.843 55l-1.45.667L64 57.079l.463 1.344 1.38.577 1.3-.655.857-1.266-.648-1.47z"/>
@@ -368,7 +368,7 @@ renderSuccessAlert() {
 							</div>
 							<div className="hero-dots hero-dots-2 is-moving-object is-translating" data-translating-factor="120">
 								<svg width="138" height="132" xmlns="http://www.w3.org/2000/svg">
-								    <g fill="#43F1FF" fillRule="evenodd">
+								    <g fill="#2DB229" fillRule="evenodd">
 								        <path d="M73.686 66l-2.899 1.334L70 70.157l.926 2.688L73.686 74l2.6-1.31L78 70.156l-1.295-2.94z"/>
 								        <path fillOpacity=".64" d="M108.843 0l-1.45.667L107 2.079l.463 1.344 1.38.577 1.3-.655.857-1.266-.648-1.47z"/>
 								        <path fillOpacity=".24" d="M135.843 53l-1.45.667-.393 1.412.463 1.344 1.38.577 1.3-.655.857-1.266-.648-1.47z"/>
@@ -385,7 +385,7 @@ renderSuccessAlert() {
 							</div>
 							<div className="hero-dots hero-dots-3 is-moving-object is-translating" data-translating-factor="160">
 								<svg width="98" height="59" xmlns="http://www.w3.org/2000/svg">
-								    <g fill="#43F1FF" fillRule="evenodd">
+								    <g fill="#2DB229" fillRule="evenodd">
 								        <path d="M26.314 0l2.899 1.334L30 4.157l-.926 2.688L26.314 8l-2.6-1.31L22 4.156l1.295-2.94z"/>
 								        <path fillOpacity=".64" d="M59.157 2l1.45.667L61 4.079l-.463 1.344-1.38.577-1.3-.655L57 4.079l.648-1.47z"/>
 								        <path fillOpacity=".24" d="M32.157 55l1.45.667.393 1.412-.463 1.344-1.38.577-1.3-.655L30 57.079l.648-1.47z"/>
@@ -401,9 +401,9 @@ renderSuccessAlert() {
 								<svg width="344" height="217" xmlns="http://www.w3.org/2000/svg">
 								    <defs>
 								        <linearGradient x1="18.74%" y1="17.384%" x2="96.787%" y2="88.669%" id="line-1-a">
-								            <stop stopColor="#5D6AFF" stopOpacity="0" offset="0%"/>
-								            <stop stopColor="#5D6AFF" offset="53.489%"/>
-								            <stop stopColor="#5D6AFF" stopOpacity="0" offset="100%"/>
+								            <stop stopColor="#2DB229" stopOpacity="0" offset="0%"/>
+								            <stop stopColor="#2DB229" offset="53.489%"/>
+								            <stop stopColor="#2DB229" stopOpacity="0" offset="100%"/>
 								        </linearGradient>
 								    </defs>
 								    <path d="M340.86 180.664l2.281 3.287c-79.796 55.378-120.994 39.511-120.994-47.035 0-82.777-47.283-92.246-144.735-27.901-32.607 20.428-55.391 21.53-67.544 2.516C-1.882 93.147-3.092 56.053 5.987 0l3.948.64c-8.928 55.125-7.743 91.453 3.303 108.736 10.644 16.653 31.058 15.666 62.01-3.725 99.65-65.797 150.9-55.534 150.9 31.265 0 83.03 37.371 97.424 114.713 43.748z" fill="url(#line-1-a)" fillRule="nonzero" transform="matrix(-1 0 0 1 343.141 0)"/>
@@ -434,9 +434,9 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Sign up</h4>
+		                                <h4 className="feature-title m-0">Create a Sourcerer!</h4>
 									</div>
-	                                <p className="text-sm mb-0">One liner description here. blah blah blah</p>
+	                                <p className="text-sm mb-0">View relevant open source quests, track your progress, and showcase your skills to employers.</p>
 	                            </div>
 	                        </div>
 							<div className="feature">
@@ -451,9 +451,9 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Find issues</h4>
+		                                <h4 className="feature-title m-0">Join a quest!</h4>
 									</div>
-	                                <p className="text-sm mb-0">One liner description here. blah blah blah</p>
+	                                <p className="text-sm mb-0">Team up by joining a quest from the Quest Board.</p>
 	                            </div>
 	                        </div>
 							<div className="feature">
@@ -470,9 +470,9 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Contribute</h4>
+		                                <h4 className="feature-title m-0">Climb the ranks!</h4>
 									</div>
-	                                <p className="text-sm mb-0">One liner description here. blah blah blah</p>
+	                                <p className="text-sm mb-0">Complete quests to gain experience, collect loot, and enhance your skills as an open source contributor.</p>
 	                            </div>
 	                        </div>
 						</div>
@@ -483,11 +483,11 @@ renderSuccessAlert() {
 
         <footer className="site-footer">
 			<div className="footer-bg">
-				<svg width="385" height="305" xmlns="http://www.w3.org/2000/svg">
+				<svg width="385" height="210" xmlns="http://www.w3.org/2000/svg">
 				    <defs>
-				        <linearGradient x1="50%" y1="34.994%" x2="50%" y2="97.738%" id="footer-bg">
-				            <stop stopColor="#151616" offset="0%"/>
-				            <stop stopColor="#222424" offset="100%"/>
+				        <linearGradient x1="19%" y1="9%" x2="30%" y2="95%" id="footer-bg">
+				            <stop stopColor="#000000" offset="0%"/>
+				            <stop stopColor="#5A1A99" offset="59%"/>
 				        </linearGradient>
 				    </defs>
 				    <path d="M384.557 116.012V305H0L210.643 0l173.914 116.012z" fill="url(#footer-bg)" fillRule="evenodd"/>
@@ -495,7 +495,7 @@ renderSuccessAlert() {
 			</div>
 			<div className="footer-dots is-moving-object is-translating" data-translating-factor="160">
 				<svg width="69" height="91" xmlns="http://www.w3.org/2000/svg">
-				    <g fill="#43F1FF" fillRule="evenodd">
+				    <g fill="#2DB229" fillRule="evenodd">
 				        <path d="M37.105 41.007l-2.9 1.334-.786 2.823.926 2.689 2.76 1.154 2.6-1.31 1.714-2.533-1.296-2.94z"/>
 				        <path fillOpacity=".64" d="M63.109 27.24l-1.45.666-.394 1.412.464 1.344 1.38.577 1.3-.655.856-1.266-.647-1.47z"/>
 				        <path fillOpacity=".24" d="M66.226 86.638l-1.45.667-.393 1.412.463 1.344 1.38.577 1.3-.655.857-1.266-.648-1.47z"/>
