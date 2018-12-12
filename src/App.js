@@ -90,11 +90,11 @@ renderSuccessAlert() {
          <div className="body-wrap boxed-container">
         <header className="site-header">
             <div className="container">
+              <div>
                 <div className="site-header-inner">
                     <div className="brand header-brand">
                         <h1 className="m-0">
                             <a href="/">
-
 								<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 								    <defs>
 								        <linearGradient x1="0%" y1="0%" y2="100%" id="logo-a">
@@ -112,7 +112,7 @@ renderSuccessAlert() {
 								        </linearGradient>
 								    </defs>
 								    <g fill="none" fillRule="evenodd">
-								         <path d="M4 0h12v16H0V4a4 4 0 0 1 4-4z" fill="url(#logo-a)"/>
+								         <path d="M2 0h12v16H0V4a4 4 0 0 1 4-4z" fill="url(#logo-a)"/>
 								          <path d="M16 16h16v12a4 4 0 0 1-4 4H16V16z" fill="url(#logo-b)"/>
 								          <path d="M11.5 20.5H.5v1h10v10h1v-11z" stroke="url(#logo-c)" transform="matrix(-1 0 0 1 12 0)"/>
 								          <path d="M31.5.5h-11v1h10v10h1V.5z" stroke="url(#logo-c)" transform="matrix(1 0 0 -1 0 12)"/>
@@ -121,9 +121,10 @@ renderSuccessAlert() {
                             </a>
                         </h1>
                     </div>
-                </div>
-            </div>
-        </header>
+                  </div>
+              </div>
+          </div>
+      </header>
 
         <main>
             <section className="hero">
@@ -131,7 +132,7 @@ renderSuccessAlert() {
                     <div className="hero-inner">
 						<div className="hero-copy">
 	                        <h1 className="hero-title mt-0 is-revealing">Open source, Epically.</h1>
-	                        <p className="hero-paragraph is-revealing">OpenSourcery is ...</p>
+	                        <p className="hero-paragraph is-revealing">Contribute to open source projects within a team.</p>
 
                             <form onSubmit={this.handleSubmit} autoComplete="off" id="lead-form">
                             <div className="hero-form field field-grouped is-revealing">
@@ -434,7 +435,7 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Create a Sourcerer!</h4>
+		                                <h4 className="feature-title m-0">Create a Sourcerer.</h4>
 									</div>
 	                                <p className="text-sm mb-0">View relevant open source quests, track your progress, and showcase your skills to employers.</p>
 	                            </div>
@@ -451,9 +452,9 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Join a quest!</h4>
+		                                <h4 className="feature-title m-0">Join a quest.</h4>
 									</div>
-	                                <p className="text-sm mb-0">Team up by joining a quest from the Quest Board.</p>
+	                                <p className="text-sm mb-0">Team up with fellow Sourcerers by joining a quest from the Quest Board.</p>
 	                            </div>
 	                        </div>
 							<div className="feature">
@@ -470,7 +471,7 @@ renderSuccessAlert() {
 											    </g>
 											</svg>
 		                                </div>
-		                                <h4 className="feature-title m-0">Climb the ranks!</h4>
+		                                <h4 className="feature-title m-0">Climb the ranks.</h4>
 									</div>
 	                                <p className="text-sm mb-0">Complete quests to gain experience, collect loot, and enhance your skills as an open source contributor.</p>
 	                            </div>
@@ -509,7 +510,7 @@ renderSuccessAlert() {
 			</div>
             <div className="container">
                 <div className="site-footer-inner has-top-divider">
-                    <div className="footer-copyright">&copy; 2018 Sourcery, all rights reserved</div>
+                    <div className="footer-copyright">&copy; 2018 OpenSourcery, all rights reserved</div>
 					{/* <ul className="footer-social-links list-reset">
 						<li>
 							<a href="#">
