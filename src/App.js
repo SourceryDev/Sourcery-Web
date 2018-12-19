@@ -116,6 +116,7 @@ renderSuccessAlert() {
 								          <path d="M16 16h16v12a4 4 0 0 1-4 4H16V16z" fill="url(#logo-b)"/>
 								          <path d="M11.5 20.5H.5v1h10v10h1v-11z" stroke="url(#logo-c)" transform="matrix(-1 0 0 1 12 0)"/>
 								          <path d="M31.5.5h-11v1h10v10h1V.5z" stroke="url(#logo-c)" transform="matrix(1 0 0 -1 0 12)"/>
+
 								    </g>
 								</svg>
                             </a>
@@ -132,7 +133,7 @@ renderSuccessAlert() {
                     <div className="hero-inner">
 						<div className="hero-copy">
 	                        <h1 className="hero-title mt-0 is-revealing">Open source, Epically.</h1>
-	                        <p className="hero-paragraph is-revealing">Contribute to open source projects within a team.</p>
+	                        <p className="hero-paragraph is-revealing"> GitCast makes it easy to start contributing to open source projects.</p>
 
                             <form onSubmit={this.handleSubmit} autoComplete="off" id="lead-form">
                             <div className="hero-form field field-grouped is-revealing">
@@ -437,7 +438,7 @@ renderSuccessAlert() {
 		                                </div>
 		                                <h4 className="feature-title m-0">Create a Sourcerer.</h4>
 									</div>
-	                                <p className="text-sm mb-0">View relevant open source quests, track your progress, and showcase your skills to employers.</p>
+	                                <p className="text-sm mb-0">View open source quests relevant to your interests, track your progress, and showcase your skills to employers.</p>
 	                            </div>
 	                        </div>
 							<div className="feature">
@@ -447,6 +448,7 @@ renderSuccessAlert() {
 											<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 											    <g fillRule="nonzero" fill="none">
 											        <path d="M4 12H0V5a5.006 5.006 0 0 1 5-5h7v4H5a1 1 0 0 0-1 1v7z" fill="#43F1FF"/>
+                              <path d="M16 12c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#FFFFFF"/>
 											        <path d="M32 12h-4V5a1 1 0 0 0-1-1h-7V0h7a5.006 5.006 0 0 1 5 5v7zM12 32H5a5.006 5.006 0 0 1-5-5v-7h4v7a1 1 0 0 0 1 1h7v4z" fill="#4353FF"/>
 											        <path d="M27 32h-7v-4h7a1 1 0 0 0 1-1v-7h4v7a5.006 5.006 0 0 1-5 5z" fill="#43F1FF"/>
 											    </g>
@@ -463,11 +465,11 @@ renderSuccessAlert() {
 										<div className="feature-icon mr-16">
 											<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
 											    <g fill="none" fillRule="nonzero">
-											        <path d="M16 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#4353FF"/>
-											        <path d="M27 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#43F1FF"/>
-											        <path d="M27 12c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#4353FF"/>
+											        <path d="M 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#4353FF"/>
+											        <path d="M27 9c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4z" fill="#7422C4"/>
+											        <path d="M16 12c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#4353FF"/>
 											        <path d="M5 23c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4z" fill="#43F1FF"/>
-											        <path d="M27 23c-1.859 0-3.41 1.28-3.858 3h-3.284A3.994 3.994 0 0 0 17 23.142v-3.284c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4-1.859 0-3.41 1.28-3.858 3H8.858A3.994 3.994 0 0 0 6 12.142V8.858c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4S1 2.794 1 5c0 1.858 1.28 3.41 3 3.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284A3.994 3.994 0 0 0 15 19.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284c.447 1.72 2 3 3.858 3 2.206 0 4-1.794 4-4s-1.794-4-4-4z" fill="#4353FF"/>
+											        <path d="M 23c-1.859 0-3.41 1.28-3.858 3h-3.284A3.994 3.994 0 0 0 17 23.142v-3.284c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4-1.859 0-3.41 1.28-3.858 3H8.858A3.994 3.994 0 0 0 6 12.142V8.858c1.72-.447 3-2 3-3.858 0-2.206-1.794-4-4-4S1 2.794 1 5c0 1.858 1.28 3.41 3 3.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284A3.994 3.994 0 0 0 15 19.858v3.284c-1.72.447-3 2-3 3.858 0 2.206 1.794 4 4 4 1.859 0 3.41-1.28 3.858-3h3.284c.447 1.72 2 3 3.858 3 2.206 0 4-1.794 4-4s-1.794-4-4-4z" fill="#4353FF"/>
 											    </g>
 											</svg>
 		                                </div>
